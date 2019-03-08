@@ -1,0 +1,17 @@
+
+FULL DOCUMENTATION:
+
+https://medium.com/tech-tajawal/jwt-authentication-for-lumen-5-6-2376fd38d454
+
+1. navigate to folder and type: composer install
+
+2. created database "lumen_jwt"
+
+3. edit variables .env 
+
+4. run seeding and migration
+	php artisan migrate
+	php artisan db:seed
+
+5. serve
+	php -S localhost:8000 -t ./public
